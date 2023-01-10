@@ -12,6 +12,8 @@ import { SentenceDirective } from './sentence.directive';
 
 import { PictureDirective } from './picture.directive';
 
+import { APP_BASE_HREF, LocationStrategy, HashLocationStrategy } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,10 @@ import { PictureDirective } from './picture.directive';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    //{ provide: APP_BASE_HREF, useValue: '/' },
+    //{ provide: LocationStrategy, useClass: HashLocationStrategy },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
