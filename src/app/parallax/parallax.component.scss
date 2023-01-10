@@ -1,0 +1,60 @@
+#wood {
+    background-image: url("https://michael221002.github.io/AllOnPen/assets/wood.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+
+    background-color: green;
+
+    width: 100vw;
+    height: 200vh;
+    position: fixed;
+    top: 5vh;
+
+    z-index: -3;
+}
+
+#black {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+#stone {
+    //https://de.freepik.com/fotos-kostenlos/steinboden_1278488.htm#query=steinboden&position=1&from_view=keyword
+    background-image: url("https://michael221002.github.io/AllOnPen/assets/stone.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+
+    background-color: green;
+
+    width: 100vw;
+    height: 200vh;
+    position: fixed;
+    top: 150vh;
+
+    z-index: -2;
+}
+
+#glas {
+    background-image: url("https://michael221002.github.io/AllOnPen/assets/glas.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+
+    background-color: green;
+
+    width: 100%;
+    height: 200vh;
+    position: fixed;
+    top: 330vh;
+
+    z-index: -1;
+}
+
+@media only screen and (max-width: 900px) {
+    #stone {
+        top: 140vh;
+    }
+}
