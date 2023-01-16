@@ -1,0 +1,260 @@
+/*background-image: linear-gradient(45deg, #654ea3, #eaafc8);transform: skewY(-11deg);*/
+
+/*
+background: linear-gradient(45deg, #eaafc8, rgb(22, 10, 128));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;*/
+
+/*font-size: calc(1vw + 1vh);*/
+
+/*box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+
+/*@media (max-width: 900px) {
+}*/
+
+
+@font-face {
+  font-family: "metropolis";
+  src: url("Metropolis-Regular.otf");
+}
+@font-face {
+  font-family: "paradise";
+  src: url("Paradise.otf");
+}
+
+html, body {
+    margin: 0;
+
+    width: 100%;
+
+    background-color: #20123a;
+
+    background: rgb(32,18,58);
+    background: linear-gradient(180deg, rgba(32,18,58,1) 0%, rgba(32,18,58,1) 20%, rgba(245,105,0,1) 50%, rgba(32,18,58,1) 80%, rgba(32,18,58,1) 100%);
+  
+}
+
+
+
+
+.cover {
+    width: 100%;
+    height: 100vh;
+}
+
+.gradient-container {
+    transform: skewY(-11deg);
+
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #654ea3, #9161aa, #b478b1, #d292bb, #eaafc8);
+
+}
+
+.title-box {
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    top: 150px;
+    left: 0px;
+
+    z-index: 3;
+}
+
+.pretitle-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+
+  bottom: 120px;
+  right: 80px;
+
+  z-index: 3;
+}
+
+#pretitle {
+  font-size: 420%;
+    font-family: metropolis;
+
+    color: white;
+
+  text-align: center;
+}
+
+#title {
+    font-size: 14rem;
+    font-family: paradise;
+
+    background: linear-gradient(30deg, #f56900 30%, #20123a 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+  
+    width:100%;
+    display: flex;
+  
+    display: flex;
+    align-items: center;
+  
+    top: 0;
+    left: 0;
+
+    background-color: #20123a8c;
+  }
+  
+  .a-box {
+    border-style: solid;
+    border-left: none;
+    border-right-color: rgb(22, 10, 128);
+    border-top: none;
+    border-bottom: none;
+  
+    width: 10%;
+    height: auto;
+  
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+  }
+  
+  a {
+    font-size: calc(1vw + 1vh);
+    cursor: pointer;
+    color: #eaafc8;
+    -webkit-transition: color .3s ease-out;
+    -moz-transition: color .3s ease-out;
+    -o-transition: color .3s ease-out;
+    transition: color .3s ease-out;
+  
+    text-decoration: none;
+    font-family: metropolis;
+  }
+  
+  a:hover {
+    color:#f56900;
+  }
+
+.main {
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 10px;
+
+  
+}
+
+.section {
+  width: 98%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
+#sec_one {
+  background-image: url("./assets/city.jpg");
+  
+}
+
+#sec_two {
+  background-image: url("./assets/Brücke.jpg");
+}
+
+#sec_three {
+  background-image: url("./assets/example.jpg");
+}
+
+.title_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+
+  border-radius: 20px;
+
+  gap: 0px;
+
+
+  width: 30%;
+  height: auto;
+
+  background-image: linear-gradient(45deg, #654ea38c, #eaafc880);
+
+  border-bottom-right-radius: 250px;
+
+  padding: 25px;
+}
+
+#sec_title {
+  color: #f56900;
+  font-size: 800%;
+  padding:0px;
+  margin: 0px;
+}
+
+#sec_pretitle {
+  font-size: 650%;
+  color:rgb(22, 10, 128);
+  padding:0px;
+  margin: 0px;
+
+}
+
+.footer {
+  width: 100%;
+  height: 80vh;
+
+  overflow:hidden;
+
+}
+
+.footer-content {
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+  width:100%;
+  height:50vh;
+
+
+  transform: skewY(11deg);
+  
+
+}
+
+.footer-column {
+  background-color: #20123a8c;
+  width: 23%;
+  height: 45vh;
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p {
+  margin: 0px;
+}
