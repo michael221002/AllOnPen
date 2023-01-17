@@ -171,12 +171,12 @@ html, body {
 }
 
 #sec_one {
-  background-image: url("./assets/city.jpg");
+  background-image: url("./assets/wald.jpg");
   
 }
 
 #sec_two {
-  background-image: url("./assets/Brücke.jpg");
+  background-image: url("./assets/konzert.jpg");
 }
 
 #sec_three {
@@ -244,7 +244,6 @@ html, body {
 }
 
 .footer-column {
-  background-color: #20123a8c;
   width: 23%;
   height: 45vh;
 
@@ -255,6 +254,6 @@ html, body {
   flex-direction: column;
 }
 
-.p {
+p {
   margin: 0px;
 }
