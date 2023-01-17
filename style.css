@@ -272,3 +272,15 @@ p {
   border-radius: 20px;
 
 }
+
+@media (max-width: 1900px) {
+
+  p, h1, a, span {
+    font-size: calc(4vh + 4vw) !important; 
+  }
+
+  .footer {
+    font-size: 2%;
+  }
+
+}
