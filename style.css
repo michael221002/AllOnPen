@@ -21,6 +21,10 @@ background: linear-gradient(45deg, #eaafc8, rgb(22, 10, 128));
   font-family: "paradise";
   src: url("Paradise.otf");
 }
+@font-face {
+  font-family: "duncin";
+  src: url("Dunkin.otf");
+}
 
 html, body {
     margin: 0;
